@@ -17,7 +17,7 @@
 
 # id and class Attribute
 
-All html tag has `id` and `class` attribute. `id` use for uniquely select a html element in entire document. So there will be only one id in entire document. Id can be select by `#` sign. Class can be used for selecting group of element. In css class is select by `.` sign
+All html tag has `id` and `class` attribute. `id` use for uniquely select a html element in entire document. So there will be only one id in entire document. Id can be selected by `#` sign. Class can be used for selecting group of element. In css, class is selected by `.` sign
 
 ## a
 
