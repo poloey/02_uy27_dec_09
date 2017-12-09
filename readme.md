@@ -83,5 +83,17 @@ div is a block level element. It takes whole width of parent width. used for non
 span is a inline element. Use for non semantic content
 
 
+## How to install live-server in your pc globally
+
+~~~bash
+
+npm install live-server -g
+
+~~~
+
+
+
+
+
 
 
