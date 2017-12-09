@@ -1,7 +1,7 @@
 # class 2 uy-27
 
 
-# Essential tag in html
+# Essential tag and attribute in html
 
 * [id, class]
 * a [href, target, title]
@@ -12,6 +12,8 @@
 * option [value]
 * textarea [name]
 * img [src, alt, title]
+* div
+* span
 
 # id and class Attribute
 
@@ -20,7 +22,7 @@ All html tag has `id` and `class` attribute. `id` use for uniquely select a html
 ## a
 
 ~~~html
-in `href` attribute you will give your desired path
+In `href` attribute you will give your desired path. To open link in different tag use `target=_blank"`
 <!-- absolute path with http/https -->
 <a href="https://google.com" target="_blank" title="google link">visit google</a>
 <!-- relative path -->
@@ -39,19 +41,20 @@ in `href` attribute you will give your desired path
 
 ~~~html
 <label for="name">Name</label>
-<input type="text" name="name" value="some value" placeholder="Enter your name" required>
+<input id='name' type="text" name="name" value="some value" placeholder="Enter your name" required>
 ~~~
 
 ## select and option 
 Select create a droption selection 
 
 ~~~html
-<select name="city" id="city">
+<select name="city">
   <option value="1">Dhaka</option>
-  <option value="1">Dhaka</option>
-  <option value="1">Dhaka</option>
+  <option value="2">Chittagong</option>
+  <option value="3">Feni</option>
+  <option value="4">Comilla</option>
 </select>
-~~~
+~
 
 ##  textarea 
 
@@ -66,7 +69,18 @@ Select create a droption selection
 <img src="google.png" alt="some alternative text about google">
 ~~~
 
+# div 
+div is a block level element. It takes whole width of parent width. used for non semantic content 
+~~~html
+<div></div>
+~~~
 
+# span 
+
+~~~html
+<span></span>
+~~~
+span is a inline element. Use for non semantic content
 
 
 
